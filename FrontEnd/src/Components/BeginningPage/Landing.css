@@ -1,0 +1,147 @@
+#landing {
+  text-align: center;
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.howItWorks p {
+  text-align: left;
+}
+
+.sections {
+  margin: 1rem auto;
+}
+
+#categories,
+#badges,
+#goals {
+  margin: 1.5rem 0.5rem;
+  border-top: 1px dotted rgb(0, 63, 158);
+  display: grid;
+  grid-template-rows: 2rem 1fr;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#posts {
+  margin: 1.5rem 0.5rem;
+  border-top: 1px dotted rgb(0, 63, 158);
+  display: grid;
+  grid-template-rows: 2rem 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#categories h3,
+#posts h3,
+#badges h3,
+#goals h3 {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+
+#categoriesImg,
+#badgesImg,
+#goalsImg {
+  margin: auto;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#postsImg {
+  margin: auto;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+#postsImg img,
+#badgesImg img,
+#goalsImg img {
+  width: 200px;
+}
+
+#badgesImg img,
+#goalsImg img {
+  padding-bottom: 1rem;
+}
+
+#categoriesText,
+#badgesText,
+#goalsText {
+  padding: 1.5rem;
+  grid-column: 2 / 3;
+  grid-row: 2/3;
+}
+
+#postsText {
+  margin: 0;
+  padding: 1.5rem;
+  text-align: left;
+  grid-column: 2 / 3;
+  grid-row: 3/4;
+}
+
+#postsDescription {
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  padding: 0 2rem;
+}
+
+.boldText {
+  color: rgb(0, 63, 158);
+  font-weight: bold;
+}
+
+.enterSite {
+  text-align: center;
+  background: white;
+  width: 8rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  transform: scale(1);
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.link {
+  color: rgb(71, 71, 71);
+}
+
+.enterSite:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+  #landing {
+    margin: 0 1rem;
+  }
+  #categories,
+  #posts,
+  #badges,
+  #goals {
+    display: flex;
+    flex-direction: column;
+  }
+  #categoriesText,
+  #postsText,
+  #badgesText,
+  #goalsText {
+    margin: 0;
+    padding: 0 1.5rem;
+  }
+  h3 {
+    margin: 0;
+  }
+
+  .enterSite {
+    margin: 1rem auto;
+  }
+}

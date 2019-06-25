@@ -1,0 +1,54 @@
+#ProfileBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 63, 158);
+}
+
+.ProgressSection {
+  color: rgb(0, 63, 158);
+}
+
+.BadgesSection {
+  margin: auto;
+  color: rgb(0, 63, 158);
+}
+
+.FirstBadge,
+.SecondBadge {
+  border: 2px solid rgb(0, 63, 158);
+  border-radius: 15px;
+  background-color: rgba(0, 63, 158, 0.11);
+  margin: 10px;
+  width: 300px;
+}
+
+.BadgesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#PostList {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+#badgeList{
+  padding: 0;
+}
+
+#PostList li {
+  margin: 0.75rem;
+}
+
+#FABadge {
+  font-size: 2rem;
+}

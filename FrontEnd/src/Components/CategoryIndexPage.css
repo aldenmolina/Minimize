@@ -1,0 +1,51 @@
+.CatIndexBody {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+  text-transform: lowercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#MiniTitle {
+  font-size: 2rem;
+  color: rgb(0, 63, 158);
+  margin: 2px;
+}
+
+#CatName {
+  font-size: 1rem;
+}
+
+#CatLists {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#CatLists a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 63, 158);
+  transition: 0.3s;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  width: 7rem;
+  height: 7rem;
+  margin: 1rem;
+  padding: 2rem;
+  padding-bottom: 2rem;
+}
+
+#CatLists a:hover {
+  color: rgb(185, 0, 161);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  margin-top: -1rem;
+}
+
+#CatIndexUl {
+  padding: 0;
+}

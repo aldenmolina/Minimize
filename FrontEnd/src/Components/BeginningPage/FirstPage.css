@@ -1,0 +1,71 @@
+#entirePage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.enter-site {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  background: white;
+  padding: 0 3rem;
+  margin-bottom: 5rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+.enter-site img {
+  align-items: center;
+  width: 100%;
+  padding-top: 30%;
+  margin-bottom: 3rem;
+}
+.buttons {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+.logIn button {
+  background-color: orange;
+  border: unset;
+  border-radius: 2px;
+  height: 2rem;
+  width: 6rem;
+}
+
+.logIn button:hover {
+  background: rgb(255, 181, 43);
+  cursor: pointer;
+}
+.create button {
+  background-color: orange;
+  border: unset;
+  border-radius: 2px;
+  height: 2rem;
+  width: 8rem;
+}
+
+.create button:hover {
+  background: rgb(255, 181, 43);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .enter-site {
+    max-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .enter-site img {
+    width: unset;
+    max-width: 10rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logIn button {
+    margin: 1rem;
+  }
+}

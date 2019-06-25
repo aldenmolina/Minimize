@@ -1,0 +1,10 @@
+#graphDisplay {
+  width: 600px;
+  margin: auto;
+}
+
+@media screen and (max-width: 625px) {
+  #graphDisplay {
+    width: 400px;
+  }
+}

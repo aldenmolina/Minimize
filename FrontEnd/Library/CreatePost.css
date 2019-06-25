@@ -1,0 +1,15 @@
+#form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-form input,
+.post-form textarea {
+  margin-bottom: 1rem;
+}

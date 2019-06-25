@@ -1,0 +1,151 @@
+#body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 63, 158);
+}
+
+.theminimalists,
+.Simplify,
+.Uncluttered {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 63, 158);
+  transition: 0.3s;
+  border: 1px solid rgb(0, 63, 158);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  margin: 1rem;
+  width: 300px;
+  height: 230px;
+  font-size: 1.15rem;
+}
+
+.theminimalists p,
+.Simplify p,
+.Uncluttered p {
+  margin: 0;
+}
+
+.Title p {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(0, 63, 158);
+}
+
+.helpContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.helpTitle p,
+.socialTitle p,
+.donationTitle p {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px;
+  color: rgb(0, 63, 158);
+}
+
+.Map {
+  text-align: center;
+}
+
+.MapContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.theminimalists {
+  text-align: center;
+}
+
+.theminimalists iframe {
+  max-width: 100%;
+}
+
+.video {
+  width: 300px;
+  padding-top: 1rem;
+}
+
+.Simplify {
+  text-align: center;
+  padding-top: 1rem;
+  padding: 0;
+}
+
+/*Donation Info Start*/
+.donationTitle {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.donationInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.bulk {
+  text-align: center;
+  border: 1px solid rgb(0, 63, 158);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  max-width: 375px;
+  padding: 5px;
+  margin: 15px;
+  font-size: 1rem;
+}
+
+.bulkTitle p {
+  font-size: 0.85rem;
+}
+
+/*Start of Social Media Stuff*/
+
+.socialContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.socialContainer p {
+  text-align: center;
+}
+
+.facebook,
+.pintrest,
+.facebook1,
+.twitter {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 63, 158);
+  border: 1px solid rgb(0, 63, 158);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 105px;
+  font-size: 1.15rem;
+}
+
+.facebook p,
+.pintrest p {
+  padding: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  #navbar {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+}

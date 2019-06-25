@@ -1,0 +1,57 @@
+#badgeList {
+  margin: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#badgeContainer {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  height: 7rem;
+  margin: 1rem 1rem;
+  border-radius: 10px;
+  color: rgb(0, 63, 158);
+  background-image: linear-gradient(
+    to bottom right,
+    white,
+    rgba(0, 63, 158, 0.12)
+  );
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.badge-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge-info h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.badge-info p {
+  padding: 0;
+  margin: 0;
+}
+
+.medal {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+#badgeContainer:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 600px) {
+  #badgeContainer {
+    width: 25rem;
+  }
+}
+
+#badgeContainer p {
+  padding: 0 1rem;
+}

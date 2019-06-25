@@ -1,0 +1,26 @@
+.newGoals {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  background: linear-gradient(to bottom right, white, rgba(0, 95, 238, 0.048));
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 400px;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+h1 {
+  text-align: center;
+}
+.newGoals p {
+  font-size: 0.8rem;
+}
+/* .newGoals p2{
+    font-size: 1rem;
+}  */
